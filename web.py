@@ -3,7 +3,7 @@ import pandas as pd
 from prediction import show_prediction
 from visualization import show_visualization  
 from survey import show_survey
-
+import sklearn
 
 
 page = st.sidebar.selectbox("",['Survey','Visualization','Prediction'])
