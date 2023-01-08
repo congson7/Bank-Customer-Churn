@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-pip install sklearn
+
 
 def load_model():
     with open('save_step.pkl', 'rb') as file:
